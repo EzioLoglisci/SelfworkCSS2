@@ -1,0 +1,66 @@
+
+/*Display flex 60% main 40%aside*/
+main {
+    display: flex;
+
+}
+section{
+    width: 60%;
+}
+aside{
+    width: 40%;
+    background-color: #f6ff00;
+    
+}
+/*Flexbox nav*/
+nav {
+    display: flex;
+    background-color: #f6ff00;
+    border: solid black;
+    height: 20vh;
+}
+.Logo {
+    width: 20%
+}
+.Tendina {
+    width: 80%;
+}
+
+/*Flexbox ul*/
+ul {
+    display: flex;
+}
+
+li {
+    color: black;
+    list-style-type: none;
+
+    margin: 20px;
+    padding: 20px 5px;
+    
+}
+
+li :hover {
+    text-decoration: underline black;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav button {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+
+
+.immagineArticle {
+    width: 95%;
+
+}
+.immagineLogo {
+    width: 200px;
+}
